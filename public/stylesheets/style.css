@@ -1,8 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 90vh;
+  width: 90vw;
+  background: url('../images/Pokeball.png') center center no-repeat;
+  background-size: cover;
 }
 
 a {
   color: #00B7FF;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+
+}
+
+.correct {
+  width: 100%;
+  font-size: 40px;
+}
+
+.space {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+.selected {
+  background-color: rgba(100, 100, 100, 0.5);
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid gray;
+}
+
+h4 {
+  font-size: 25px;
+
+}
+
+.green {
+  background-color: rgba(0, 255, 0, 0.5);
 }

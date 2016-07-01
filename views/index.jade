@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Hang Some Pokemon!!!
+  h6= pokemon.length
+  
+  div(class='game')
+    div(class='spaceContainer')
+      - var n = 0
+      while n < pokemon.length
+        div(class='space' letter=pokemon[n] key=n++)
+    div(class='spriteContainer')
+    div(class='selectedContainer')
+    
+    
